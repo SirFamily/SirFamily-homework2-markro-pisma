@@ -1,10 +1,10 @@
 require('dotenv').config()
 const express = require("express")
 const cors = require("cors");
-const errorHanlder = require('./middlewares/error');
-const notFoundHanlder = require("./middlewares/notFound")
-const authRoute = require("./routes/auth-route")
-const productRoute =require("./routes/product-poute")
+const errorHanlder = require('../middlewares/error');
+const notFoundHanlder = require("../middlewares/notFound")
+const authRoute = require("../routes/auth-route")
+const productRoute =require("../routes/product-poute")
 const app = express();
 
 app.use(cors())
